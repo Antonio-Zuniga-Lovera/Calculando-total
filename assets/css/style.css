@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,200;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#Container {
+    width: 30vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+#Container-photo {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Container-photo img {
+    width: 90%;
+    height: 99%;
+}
+
+#Container-title-price {
+    width: 100%;
+    height: 30%;
+}
+
+#Container-title-price h2, #Container-title-price p {
+    margin: 1em;
+}
+
+#Container-title-price h2 {
+    font-size: 2rem;
+}
+
+#Container-title-price p {
+    margin-left: 1.4em;
+    font-size: 1.5rem;
+}
+
+#Container-amount {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Container-amount p {
+    font-size: 1.5rem;
+}
+
+#Subcontainer-buttons button {
+    width: 50px;
+    height: 50px;
+    font-size: 1.1rem;
+    padding: 0.8em;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    color: #fff;
+    border-style: outset;
+}
+
+#Button-add {
+    background-color: green;
+}
+
+#Button-add:hover {
+    cursor: pointer;
+}
+
+#Button-add:active {
+    border-style: inset;
+}
+
+#Button-eliminate {
+    background-color: red;
+}
+
+#Button-eliminate {
+    cursor: pointer;
+}
+
+#Button-eliminate:active {
+    border-style: inset;
+}
+
+#Container-quantity-total {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Container-quantity-total p {
+    font-size: 1.5rem;
+}
+
+#Container-quantity-total button {
+    background-color: #00d879;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0.8em;
+    border: 1px solid lightgray;
+    border-style: outset;
+    border-radius: 4px;
+    transition: background-color .4s ease;
+}
+
+#Container-quantity-total button:hover {
+    cursor: pointer;
+    background-color: #0042fd;
+}
+
+#Container-quantity-total button:active {
+    border-style: inset;
+    background-color: #c2cff1;
+    transition: none;
+}
