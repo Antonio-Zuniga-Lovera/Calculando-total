@@ -29,7 +29,7 @@ buttonAdd.addEventListener('click', () => {
 buttonEliminate.addEventListener('click', () => {
     if(counter > 0) {
         counter--;
-        var totalPrice = price * counter;
+        totalPrice = price * counter;
         amount.innerHTML = `Cantidad: ${counter}`;
         totalQuantity.innerHTML = `Total a pagar: $${formatearNumeroConPuntos(totalPrice)}`;
     } else {
