@@ -11,7 +11,7 @@ const buttonEliminate = document.querySelector('#Button-eliminate');
 let totalQuantity = document.querySelector('#Total-quantity');
 
 let counter = 0;
-let price = 719990;
+const price = 719990;
 let totalPrice;
 
 
